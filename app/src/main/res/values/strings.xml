@@ -3,4 +3,7 @@
     <string name="title_activity_maps">Map</string>
     <string name="retour">Retour</string>
     <string name="marker_title">Marker Title</string>
+    <string name="button">Button</string>
+    <string name="menu">Menu</string>
+    <string name="textview">TextView</string>
 </resources>

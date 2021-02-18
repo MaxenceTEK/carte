@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:text="@string/menu"
+        android:textColor="#201C1C"
+        android:textSize="30sp" />
+
+    <SearchView
+        android:id="@+id/recherche"
+        android:layout_width="168dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="120dp"
+        android:background="@drawable/bg_"
+        android:elevation="5dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Adresse">
+
+    </SearchView>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#636363"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="93dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="160dp"
+        android:background="@drawable/bg_"
+        android:text="  A propos"
+        android:textColor="#120101"
+        android:textSize="18sp"
+        tools:text="Apropos" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="156dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="120dp"
+        android:onClick="ClickHome"
+        android:text="@string/retour" />
+
+</LinearLayout>
